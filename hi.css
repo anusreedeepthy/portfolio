@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+ .logo{
+    width: 100px;
+ }
+ .listitems{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+ }
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+nav{
+    margin-left: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.links{
+    text-decoration: none;
+    color: black;
+   font-weight: 100px ;
+}
+.links:hover {
+    text-decoration: underline;
+    color: brown;
+}
+.homecontent{
+    margin: 13% 0px 0px 8%;
+}
+#username{
+    font-size: 50px;
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 20px;
+}
+#iname{
+    font-family: "Playwrite AR", cursive;
+    color: rgb(231, 81, 191);
+}
+#userdetails{
+    line-height: 1.2;
+
+}
+#download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.homeimages
+{
+    
+    height: 75%;
+    width: 45%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+
+}
+ .group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s,left 1s;
+
+} 
+.homeimages:hover #shape{
+    bottom: 70px;
+
+}
+.homeimages:hover #girl{
+    left: 40%;
+} 
+/* 2/8/2024 */
+#about{
+    margin: 18% 3% 0px 2%;
+   
+}
+.sectionhead{
+    text-align: center;
+}
+.mainhead{
+    font-size: 30px;
+
+}
+.subhead{
+    font-size: 20px;
+    color: red;
+}
+.aboutbody{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 20px;
+}
+.img1{
+    width: 80%;
+}
+.aboutcontent{
+    font-size: 20px;
+    text-align: justify;
+    font-family: cursive;    
+
+}
+.information{
+    margin-top: 1.3rem;
+}
+.infobox{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.infobox>span{
+    margin-left: 1rem;
+}
+#skills{
+    margin: 8% 8% 0px 8%;
+}
+.skillContents{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   gap: 2rem;
+   margin-top: 10px;
+}
+/* }
+.img2{
+    width: 400px;
+    height: 100%;}
+   .bars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem, 15px;
+    position: relative;
+   }  */
+    /* .barHead,.barPercent{
+    font-weight: 500;
+    font-size: 1.2rem;
+    } */
+   /* }
+   .basebar{
+    
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+   }  
+   .htmlBar{
+    background-color: orange;
+    width: 91%;
+   }   */
